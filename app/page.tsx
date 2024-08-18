@@ -137,9 +137,13 @@ const Home = () => {
       case "contact":
         return ["Email: example@example.com", "LinkedIn: linkedin.com/in/example"];
       default:
-        return [`'${command}' is not recognized as a valid command. Type 'help' to see available commands.`];
+        return [`'${command.replace(/'/g, "&#39;")}' is not recognized as a valid command. Type 'help' to see available commands.`];
     }
   };
+  
+  
+  
+  
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
