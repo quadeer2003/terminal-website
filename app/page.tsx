@@ -140,10 +140,10 @@ const Home = () => {
         return [`'${command.replace(/'/g, "&#39;")}' is not recognized as a valid command. Type 'help' to see available commands.`];
     }
   };
-  
-  
-  
-  
+
+
+
+
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
@@ -207,7 +207,7 @@ const Home = () => {
 
         <div className="relative z-10 flex flex-col items-center justify-center p-4 w-full max-w-screen-lg">
           <h1 className={`text-2xl md:text-3xl font-bold mb-4 text-center ${fonth.className}`}>
-            Quadeer's Terminal
+            Quadeer&apos;s Terminal
           </h1>
           <div className="w-full max-w-4xl p-4">
             <div
@@ -258,7 +258,7 @@ const Home = () => {
                         style={{ left: "8.5rem" }}
                         onClick={() => inputRef.current?.focus()}
                       >
-                        Type 'help' for a list of commands
+                        Type &apos;help&apos; for a list of commands
                       </span>
                     )}
                     {input && (
