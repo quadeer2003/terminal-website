@@ -273,8 +273,8 @@ const Home = () => {
                 ) : (
                   <div className="flex flex-col">
                     <CodeMirror
-                      value="// Start coding with Vim!\n"
-                      height="300px"
+                      value={`// Press "i" (insert mode) to start coding with Vim in Quadeer's terminal!\n// Supports all Vim key bindings, auto-complete, and syntax highlighting.`}
+                      height="270px"
                       extensions={[
                         vim(), // Vim key bindings
                         cpp(), // C++ language support
