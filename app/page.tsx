@@ -201,9 +201,9 @@ const Home = () => {
       <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/bg-a.jpg')" }}
+          style={{ backgroundImage: "url('/bg-d.jpg')" }}
         ></div>
-        <div className="absolute inset-0 bg-black bg-opacity-50 md:backdrop-blur-0"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-30 md:backdrop-blur-0"></div>
 
         <div className="relative z-10 flex flex-col items-center justify-center p-4 w-full max-w-screen-lg">
           <h1 className={`text-2xl md:text-3xl font-bold mb-4 text-center ${fonth.className}`}>
