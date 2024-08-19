@@ -123,15 +123,15 @@ const Home = () => {
       case "help":
         return [
           "Available commands:",
+          ' <span style="color:green">vim</span> :     Enter Vim mode to code',
           ' <span style="color:green">help</span> :     Show this help message',
           ' <span style="color:green">about</span> :    Learn more about me',
           ' <span style="color:green">projects</span> : See my projects',
           ' <span style="color:green">contact</span> :  Get in touch',
           ' <span style="color:green">clear</span> :  Clear screen',
-          ' <span style="color:green">vim</span> :     Enter Vim mode to code',
         ];
       case "about":
-        return ["I am a developer who loves coding and creating interactive experiences."];
+        return ["I am a Linux enthusiast with a passion for AI/ML and a keen interest in cybersecurity."];
       case "projects":
         return ["Project 1: Awesome Project", "Project 2: Another Cool Project"];
       case "contact":
@@ -209,7 +209,7 @@ const Home = () => {
           <h1 className={`text-2xl md:text-3xl font-bold mb-4 text-center ${fonth.className}`}>
             Quadeer&apos;s Terminal
           </h1>
-          <div className="w-full max-w-4xl p-4">
+          <div className="w-screen max-w-5xl p-4">
             <div
               className="bg-white bg-opacity-10 backdrop-blur-lg border border-white/20 rounded-lg w-full"
               style={{
@@ -226,7 +226,7 @@ const Home = () => {
 
               <div
                 ref={terminalRef}
-                className="p-4 h-[500px] overflow-y-auto bg-gray-900 bg-opacity-70 rounded-b-lg"
+                className="p-4 h-[520px] overflow-y-auto bg-gray-900 bg-opacity-70 rounded-b-lg"
                 onKeyDown={handleVimKeyDown}
                 tabIndex={0}
               >
