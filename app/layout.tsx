@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Quadeer's terminal",
   description: "Quadeer's terminal",
   openGraph: {
-    title: "Quadeer's terminal",
+    title: "Quadeer's terminal preview",
     description: "Quadeer's interactive terminal portfolio",
     url: "https://t-quadeer.vercel.app",
     type: "website",
