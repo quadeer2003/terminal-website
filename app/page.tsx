@@ -123,7 +123,7 @@ const Home = () => {
       case "help":
         return [
           "Available commands:",
-          ' <span style="color:green">vim</span> :     Enter Vim mode to code',
+          ' <span style="color:green">vim setup</span> :     Enter Vim mode to code',
           ' <span style="color:green">help</span> :     Show this help message',
           ' <span style="color:green">about</span> :    Learn more about me',
           ' <span style="color:green">projects</span> : See my projects',
