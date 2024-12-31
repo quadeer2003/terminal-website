@@ -133,7 +133,7 @@ const Home = () => {
       case "about":
         return ["I am a Linux enthusiast with a passion for AI/ML and a keen interest in cybersecurity."];
       case "projects":
-        return ["Project 1: Awesome Project", "Project 2: Another Cool Project"];
+        return ["Project 1: zettel vault", "Project 2: Another Cool Project"];
       case "contact":
         return ["Email: example@example.com", "LinkedIn: linkedin.com/in/example"];
       default:
